@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Noto+Sans+SC:wght@700&display=swap');
+
+header{
+    background-color:#000000;
+    display:inline-block;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width: 80px;
+    height:100%;
+    box-shadow: 15px 0px 50px rgb(0 0 0 / 15%); 
+}
+
+nav a{
+    display:block;
+    width:40px;
+    margin:30px 20px;
+    background-size:auto 100%;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    opacity:.5;
+}
+
+nav a:first-child{
+    margin-top:75px;
+}
+
+h1#typelogo a{
+    text-decoration: none;
+    transition-property:color;
+    transition-delay:1s;
+    transition-duration: 2s;
+}
+
+h1#typelogo a:link{
+    color:#FFFFFF;
+}
+
+h1#typelogo a:visited{
+    color:#FFFFFF;
+}
+
+h1#typelogo a:hover{
+    color:#000000;
+}
+
+a img{
+    width:40px;
+}
+
+header h1{
+    color:#FFFFFF;
+    font-size:40px;
+    transform:rotate(90deg);
+    margin:20px 35px;
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    display:block;
+    box-sizing: border-box;
+    margin:auto 200px auto;
+    height:75%;
+    /* width:100%; */
+}
+
+.hellos{
+    text-align:left;
+    font-size:40px;
+    margin-top:50px;
+    color:#494949;
+    font-family: 'Comfortaa', cursive;
+}
+
+.hellos a{
+    text-decoration:none;
+    border-radius: 5px;
+    transition-property:background-color;
+    transition-duration: 0.5s;
+}
+
+.hellos a:link{
+    color:#000000;
+}
+
+.hellos a:visited{
+    color:#000000;
+}
+
+.hellos a:hover{
+    background-color:#FFE324;
+}
+
+.hellos:last-child{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.active{
+    opacity:.5;
+}
+
+
+.blogListMain{
+    margin-top:10%;
+}
+
+.blogListText{
+    display:block;
+    float:left;
+    width:80%;
+    text-align:left;
+    /* overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap; */
+}
+
+.blogListText h1{
+    display:block;
+    float:left;
+    font-size:40px;
+    font-family: 'Noto Sans SC', sans-serif;
+    width:100%;
+}
+
+.blogListText p{
+    width:100%;
+    font-size:20px;
+    color:#494949;
+}
+
+.blogListPic{
+    display:block;
+    float:left;
+    width:20%;
+    margin-top: 25px;
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    /* margin-left:50px; */
+}
