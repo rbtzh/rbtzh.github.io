@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3000 3000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-18890,0)">
+        <g id="icon" transform="matrix(1,0,0,1,22140,0)">
+            <rect x="-3250" y="0" width="3000" height="3000" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-3250" y="0" width="3000" height="3000"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.13379,0,0,1.13379,234.127,-200.68)">
+                    <g transform="matrix(0.882,0,0,0.882,-3073,177)">
+                        <path d="M3000,750C3000,336.064 2663.94,0 2250,0L750,0C336.064,0 0,336.064 0,750L0,2250C0,2663.94 336.064,3000 750,3000L2250,3000C2663.94,3000 3000,2663.94 3000,2250L3000,750Z" style="fill:rgb(238,179,163);"/>
+                        <path d="M3000,750C3000,336.064 2663.94,0 2250,0L750,0C336.064,0 0,336.064 0,750L0,2250C0,2663.94 336.064,3000 750,3000L2250,3000C2663.94,3000 3000,2663.94 3000,2250L3000,750ZM2927.89,750L2927.89,2250C2927.89,2624.14 2624.14,2927.89 2250,2927.89L750,2927.89C375.864,2927.89 72.112,2624.14 72.112,2250L72.112,750C72.112,375.864 375.864,72.112 750,72.112L2250,72.112C2624.14,72.112 2927.89,375.864 2927.89,750Z"/>
+                    </g>
+                    <g transform="matrix(0.932746,0,0,0.932746,-3149.12,100.881)">
+                        <circle cx="1500" cy="1500" r="781.5" style="fill:rgb(255,181,60);stroke:black;stroke-width:68.19px;"/>
+                        <g transform="matrix(-0.956696,-0.956696,0.707107,-0.707107,2930.08,3522.64)">
+                            <path d="M1804.5,419L2109,1500L1500,1500L1804.5,419Z" style="fill:rgb(243,85,60);stroke:black;stroke-width:57.32px;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

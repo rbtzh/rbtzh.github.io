@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-	<head>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ2Z7J76LE"></script>
+
+<head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ2Z7J76LE"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -10,47 +11,83 @@
 	  gtag('config', 'G-JJ2Z7J76LE');
 	</script>
 
-			<!-- 接下来是字体 -->
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-			<!-- 接下来是网页的信息 -->
-	<title>yanbo's site</title>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="HTML, CSS, JavaScript, yanbo, blog, 博客, 赵彦博">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, yanbo, blog, 博客">
 	<meta name="description" content="yanbo 记录一些东西的地方">
-	<meta name="author" content="yan">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="/icon_500px.png" />
-
-			<!-- 接下来是样式 -->
-	<link rel="stylesheet" href="css/default-style.css">
-
-	<base target="_blank" />
+	<meta name="author" content="Zhao Yanbo">
+    <link rel="stylesheet" href="css/flow.css">
+    <link rel="icon" type="image/png" href="img/icon_500px.png" />
+    <title>yanbo site</title>
 </head>
 
-	<body>
-	<header>
-		<a href="/index.html" text-align="center"><img src="/icon_500px.png" alt="Website's icon" class="center" /></a>
-		<h1>没错，这是一篇博客</h1>
-	</header>
-	<main>		
-		<p>我叫 <a href="https://github.com/at-yan" target="_blank">yan</a>。没错，这是一篇博客。看起来很简陋，而它也的确很简陋。我正在学习 <code>HTML、CSS</code> 和 <code>Javascript</code> 相关的知识，而这个网页就是我的试验田。本来我就想随便填写一些什么文字的，但转念一想，这无疑是我的第一篇博客，我最好还是说一些人话😂</p>
-		<p>这段文字虽然现在<sup>(2021/1/31) </sup>还是一段极其丑陋且简陋的纯文本，但我相信随着我的能力提升，它能变得越来越顺眼、直到量变引起质变。</p>
-		<p>我目前在用以 <abbr title="Windows Subsystem for Linux"><code>WSL</code></abbr> 的方式跑在 <code>Windows 10 20H2</code> 上的 <code>Ubuntu 20.04.1</code> 中的 <code>Neovim</code> 写这段话。看到 Emoji 们在 <code>Windows Terminal</code> 的命令行界面上完美显示的感觉还挺舒畅的~😎</p>
-		<p>OK，就这样吧，啾咪😽</p>
-	</main>
-	<footer>
-		<small>顺带一提，微软的 Emoji 有够丑的...... </small>
-		<hr/>
-		<p>现在<sup>(2021/2/17)</sup>我打算写几篇博客来介绍 Android 平台采用买断制付费的 App。但现在这样很显然是不合适的。我还是装一个静态网站生成器吧！</p>
-		<hr/>
-		<p>第一篇博客 <a href="/article/undone1.html">是这个</a>，感谢阅读</p>
-	</footer>
-		<!-- 这是一段注释！ -->
-	</body>
+<body>
+    <div id="theFlow">
+        <div id="title" class="inside-flow left-row">
+            <h1>yanbo<br>site</h1>
+        </div>
+        <div class="inside-flow content-block right-row">
+            <div class="content-image"></div>
+            <div class="content-header">
+                <h2 class="content-main-header">Lorem Ipsum</h2>
+                <h3 class="content-sub-header">使用方法</h3>
+            </div>
+            <div class="content-passage-with-hr">
+                <hr>
+                <p class="content-pessage">Lorem
+                    ipsum是指一篇用于网页设计、排印、布局和印刷的伪拉丁文章，其用于代替英语去强调设计元素而不是内容。它也被称为占位符文（或填充文）。它是一个很便利的模板工具。它用于帮助编排文章或演示文稿的视觉元素，如排印，字体，或布局。Lorem
+                    ipsum 大多是由古典作家和哲学家西塞罗创作的拉丁文的一部分。它的单词和字母由于添加或去移除而被改变了，所以故意使其内容荒谬；它不是真实的，正确的，再也不是可理解的拉丁语。虽然lorem
+                    ipsum看起来仍像古典拉丁语。但实际上它没有任何意义。因为西塞罗的文本不包含K，W，Z
+                    这几个有异于拉丁文的字母，所以这几个字母和其他一些字母常常被随机插入去模拟欧洲语言的排印样式，这些字在原文中其实并没有。</p>
+            </div>
+        </div>
+        <div class="inside-flow content-block left-row">
+            <div class="content-image"></div>
+            <div class="content-header">
+                <h2 class="content-main-header">Lorem Ipsum</h2>
+                <h3 class="content-sub-header">使用方法</h3>
+            </div>
+            <div class="content-passage-with-hr">
+                <hr>
+                <p class="content-pessage">Lorem
+                    ipsum是指一篇用于网页设计、排印、布局和印刷的伪拉丁文章，其用于代替英语去强调设计元素而不是内容。它也被称为占位符文（或填充文）。它是一个很便利的模板工具。它用于帮助编排文章或演示文稿的视觉元素，如排印，字体，或布局。Lorem
+                    ipsum 大多是由古典作家和哲学家西塞罗创作的拉丁文的一部分。它的单词和字母由于添加或去移除而被改变了，所以故意使其内容荒谬；它不是真实的，正确的，再也不是可理解的拉丁语。虽然lorem
+                    ipsum看起来仍像古典拉丁语。但实际上它没有任何意义。因为西塞罗的文本不包含K，W，Z
+                    这几个有异于拉丁文的字母，所以这几个字母和其他一些字母常常被随机插入去模拟欧洲语言的排印样式，这些字在原文中其实并没有。</p>
+            </div>
+        </div>
+        <div class="inside-flow content-block right-row">
+            <div class="content-image"></div>
+            <div class="content-header">
+                <h2 class="content-main-header">Lorem Ipsum</h2>
+                <h3 class="content-sub-header">使用方法</h3>
+            </div>
+            <div class="content-passage-with-hr">
+                <hr>
+                <p class="content-pessage">Lorem
+                    ipsum是指一篇用于网页设计、排印、布局和印刷的伪拉丁文章，其用于代替英语去强调设计元素而不是内容。它也被称为占位符文（或填充文）。它是一个很便利的模板工具。它用于帮助编排文章或演示文稿的视觉元素，如排印，字体，或布局。Lorem
+                    ipsum 大多是由古典作家和哲学家西塞罗创作的拉丁文的一部分。它的单词和字母由于添加或去移除而被改变了，所以故意使其内容荒谬；它不是真实的，正确的，再也不是可理解的拉丁语。虽然lorem
+                    ipsum看起来仍像古典拉丁语。但实际上它没有任何意义。因为西塞罗的文本不包含K，W，Z
+                    这几个有异于拉丁文的字母，所以这几个字母和其他一些字母常常被随机插入去模拟欧洲语言的排印样式，这些字在原文中其实并没有。</p>
+            </div>
+        </div>
+        <div class="inside-flow content-block left-row">
+            <div class="content-image"></div>
+            <div class="content-header">
+                <h2 class="content-main-header">Lorem Ipsum</h2>
+                <h3 class="content-sub-header">使用方法</h3>
+            </div>
+            <div class="content-passage-with-hr">
+                <hr>
+                <p class="content-pessage">Lorem
+                    ipsum是指一篇用于网页设计、排印、布局和印刷的伪拉丁文章，其用于代替英语去强调设计元素而不是内容。它也被称为占位符文（或填充文）。它是一个很便利的模板工具。它用于帮助编排文章或演示文稿的视觉元素，如排印，字体，或布局。Lorem
+                    ipsum 大多是由古典作家和哲学家西塞罗创作的拉丁文的一部分。它的单词和字母由于添加或去移除而被改变了，所以故意使其内容荒谬；它不是真实的，正确的，再也不是可理解的拉丁语。虽然lorem
+                    ipsum看起来仍像古典拉丁语。但实际上它没有任何意义。因为西塞罗的文本不包含K，W，Z
+                    这几个有异于拉丁文的字母，所以这几个字母和其他一些字母常常被随机插入去模拟欧洲语言的排印样式，这些字在原文中其实并没有。</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
