@@ -27,10 +27,11 @@ body{
 }
 
 #title h1{
-    font-family:Futura, Helvetica, sans-serif;
+    font-family:Jost, Helvetica, sans-serif;
     font-size:100px;
     margin:0%;
     line-height: 100px;
+    font-weight: 800;
 }
 
 .left-row{
