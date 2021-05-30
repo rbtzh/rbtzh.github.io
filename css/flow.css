@@ -1,15 +1,11 @@
 body{
     background-image:url(../img/blog-background.svg);
     background-size:cover;
+    margin:0px;
+    padding:0px;
 }
-
-#theFlow{
-    margin-left: 15%;
-    margin-right: 15%;
-    display:block;
-}
-
-.inside-flow{
+/*style for the white content blocks */
+.theBlocks{
     box-sizing:border-box;
     display:block;
     width:394px;
@@ -18,30 +14,44 @@ body{
     border-radius:27px;
     -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20); 
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20);
+    clear:both;
+    margin-top:30px;
+}
+/*layout for the white content blocks on the left row*/
+.leftBlocks{
+    float:right;
+    margin-right:15px;
+}
+/*layout for the white content blocks on the right row*/
+.rightBlocks{
+    float:left;
+    margin-left:15px;
+}
+/*layout for the two block that make the vontent blocks 
+align to center of the page*/
+.theHalf{
+    display:block;
+    float:left;
+    box-sizing:border-box;
+    width:49.8%;
+    /* height:500px; */
+    margin:0px;
 }
 
-#title{
+
+
+#titleblock{
     box-shadow:none;
     padding:0%;
     background-color:#FFFFFF00;
 }
 
-#title h1{
+#titleblock h1{
     font-family:Jost, Helvetica, sans-serif;
     font-size:100px;
     margin:0%;
     line-height: 100px;
     font-weight: 800;
-}
-
-.left-row{
-    float:left;
-    margin:20px 20px 20px 30px;
-}
-
-.right-row{
-    float:right;
-    margin:20px 30px 20px 0px;
 }
 
 .content-image{
