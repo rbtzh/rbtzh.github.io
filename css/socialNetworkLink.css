@@ -7,13 +7,15 @@ a.SNLink{
     border-radius: 30px;
     color:#000000;
     background-color:#FFFFFF00;
-    transition-property: background-color;
+    transition-property: background-color, box-shadow;
     transition-duration: .5s;
     transition-timing-function: ease;
 }
 
 a.SNLink:hover, a.SNLink:focus{
-    background-color:#C4C4C4;
+    background-color:#FFD2D1;
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65); 
+    box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65);
 }
 a.SNLink img{
     display:block;
