@@ -16,6 +16,15 @@ body{
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20);
     clear:both;
     margin-top:30px;
+    transition-property: width;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+/*hover to expand, if not titleblock*/
+.theBlocks:hover:not(#titleblock), .theBlocks:focus:not(#titleblock){
+    width:450px;
+    /* -webkit-box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18); 
+    box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18); */
 }
 /*layout for the white content blocks on the left row*/
 .leftBlocks{
@@ -35,7 +44,7 @@ align to center of the page*/
     box-sizing:border-box;
     width:49.8%;
     /* height:500px; */
-    margin:0px;
+    margin:50px 0px 50px 0px;
 }
 
 
@@ -52,6 +61,11 @@ align to center of the page*/
     margin:0%;
     line-height: 100px;
     font-weight: 800;
+}
+
+.linkBlock{
+    color: #4d4d4d;
+    font-weight: 500;
 }
 
 .content-image{
