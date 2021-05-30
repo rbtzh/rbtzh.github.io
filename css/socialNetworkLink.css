@@ -1,0 +1,32 @@
+a.SNLink{
+    display:block;
+    height:60px;
+    /* background-color:#C4C4C4; */
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    color:#000000;
+    background-color:#FFFFFF00;
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+a.SNLink:hover, a.SNLink:focus{
+    background-color:#C4C4C4;
+}
+a.SNLink img{
+    display:block;
+    float:left;
+    margin-right:22px;
+    height:100%;
+}
+
+a.SNLink p{
+    line-height:60%;
+    display:block;
+    float:left;
+    font-size: 22px;
+    font-family:'Source Han Sans', Arial, sans-serif;
+    font-weight: 900;
+}
