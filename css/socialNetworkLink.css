@@ -32,3 +32,23 @@ a.SNLink p{
     font-family:'Source Han Sans', Arial, sans-serif;
     font-weight: 900;
 }
+
+#theLittleFaceInSNLinkBlock{
+    display:block;
+    font-size:0px;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transform:rotate(-360deg);
+    transition-property: margin-top, font-size, transform;
+    transition-timing-function: ease;
+    transition-duration: .5s;
+    transition-delay:.5s;
+
+}
+
+.theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock{
+    font-size:22px;
+    margin-top: 33px;
+    transform:rotate(360deg);
+}
