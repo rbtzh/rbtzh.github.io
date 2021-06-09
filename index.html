@@ -24,7 +24,16 @@
     <title>yanbo site</title>
 </head>
 
-<body>
+<body class="transition_none">
+
+    <!-- 页面加载后取消 body 的禁止动画，以防止加载时错误触发的动画 -->
+    <script>
+        let getBody =  document.querySelector('.transition_none');
+        window.onload = function(){
+             getBody.className = '';
+        }    
+    </script>
+
     <div class="theHalf" id="theLeftHalf">
         <!--Left row-->
         <div class="theBlocks leftBlocks" id="titleblock">
