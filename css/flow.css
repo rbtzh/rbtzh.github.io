@@ -113,18 +113,22 @@ hr {
 }
 
 .content-pessage{
+    font-size:17px;
+    font-family:'Source Han Sans HC', Arial, sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
     display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:4;
-    font-family:'Source Han Sans HC', Arial, sans-serif;
-    transition-property: -webkit-line-clamp;
+    height: 100px;
+    transition-property: height, -webkit-line-clamp;
     transition-duration: .3s;
     transition-timing-function:ease-out;
+    
 }
 
 /*hover to expand hight, if not titleblock*/
 .theBlocks:hover:not(#titleblock) .content-pessage{
+    height:200px;
     -webkit-line-clamp:8;
 }
