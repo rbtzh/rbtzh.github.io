@@ -40,15 +40,14 @@ a.SNLink p{
     margin-top: 0px;
     margin-bottom: 0px;
     transform:rotate(-360deg);
-    transition-property: margin-top, font-size, transform;
+    transition-property: font-size, transform;
     transition-timing-function: ease;
     transition-duration: .5s;
-    transition-delay:.5s;
+    transition-delay:1s;
 
 }
 
 .theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock{
     font-size:22px;
-    margin-top: 33px;
     transform:rotate(360deg);
 }
