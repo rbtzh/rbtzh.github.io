@@ -136,7 +136,7 @@ hr {
 }
 
 /*hover to expand hight, if not titleblock*/
-.theBlocks:hover:not(#titleblock) .content-pessage{
+.theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage{
     height:200px;
     -webkit-line-clamp:8;
 }
