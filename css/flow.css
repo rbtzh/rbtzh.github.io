@@ -1,3 +1,4 @@
+/* Prevent unexpected transition while loading the page */
 .transition_none *{
     -webkit-transition:none!important;
     -moz-transition:none!important;
@@ -11,11 +12,12 @@ body{
     background-size:cover;
     margin:0px;
     padding:0px;
+    display:flex;
+    justify-content: center;
 }
 /*style for the white content blocks */
 .theBlocks{
     box-sizing:border-box;
-    display:block;
     width:394px;
     padding:50px;
     background-color:#FFFFFFE0;
@@ -26,32 +28,46 @@ body{
     margin-top:30px;
 }
 
+/*Hover to show shadow*/
 /* .theBlocks:hover:not(#titleblock), .theBlocks:focus:not(#titleblock){
     width:450px;
     -webkit-box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18); 
     box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18);
 } */
 
-/*layout for the white content blocks on the left row*/
-.leftBlocks{
-    float:right;
-    margin-right:15px;
+/*Hover to expand hight, if not titleblock*/
+.theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage{
+    height:200px;
+    -webkit-line-clamp:8;
 }
-/*layout for the white content blocks on the right row*/
-.rightBlocks{
+
+#grid-container{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:stretch;
+}
+
+
+/*layout for the white content blocks on the left row*/
+/* .leftBlocks{
+    display:block;
+    margin-right:15px;
+} */
+/* layout for the white content blocks on the right row */
+/* .rightBlocks{
     float:left;
     margin-left:15px;
-}
+} */
 /*layout for the two block that make the vontent blocks 
 align to center of the page*/
-.theHalf{
+/* .theHalf{
     display:block;
     float:left;
     box-sizing:border-box;
     width:49.8%;
-    /* height:500px; */
     margin:50px 0px 50px 0px;
-}
+} */
 
 
 
@@ -135,8 +151,3 @@ hr {
     
 }
 
-/*hover to expand hight, if not titleblock*/
-.theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage{
-    height:200px;
-    -webkit-line-clamp:8;
-}
