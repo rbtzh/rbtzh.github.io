@@ -1,66 +1,182 @@
 /* Prevent unexpected transition while loading the page */
-.transition_none *{
-    -webkit-transition:none!important;
-    -moz-transition:none!important;
-    -ms-transition:none!important;
-    -o-transition:none!important;
-    transition:none!important;
+
+.transition_none * {
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+    transition: none!important;
 }
 
-body{
-    background-image:url(../img/blog-background.svg);
-    background-size:cover;
-    margin:0px;
-    padding:0px;
-    display:flex;
-    justify-content: center;
+body {
+    background-image: url(../img/blog-background.svg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    display: block;
 }
+
+/*flex box to container blocks*/
+
+#grid-container {
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+
 /*style for the white content blocks */
-.theBlocks{
-    box-sizing:border-box;
-    width:394px;
-    padding:50px;
-    background-color:#FFFFFFE0;
-    border-radius:27px;
-    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20); 
-    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20);
-    clear:both;
-    margin-top:30px;
+
+.theBlocks {
+    box-sizing: border-box;
+    width: 394px;
+    padding: 50px;
+    background-color: #FFFFFFE0;
+    border-radius: 27px;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.20);
+    clear: both;
+    margin-top: 30px;
+}
+
+/*Hover to expand hight, if not titleblock*/
+
+
+
+
+#titleblock {
+    box-shadow: none;
+    padding: 0%;
+    background-color: #FFFFFF00;
+}
+
+#titleblock h1 {
+    font-family: Jost, Helvetica, sans-serif;
+    font-size: 100px;
+    margin: 0%;
+    line-height: 100px;
+    font-weight: 800;
+}
+
+.linkBlock {
+    color: #4d4d4d;
+    font-weight: 500;
+}
+
+.content-image {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-image: url(../img/grapefruit-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-header {
+    display: block;
+    float: left;
+    clear: right;
+    font-family: 'Source Han Sans', Arial, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #C4C4C4;
+    /* old IE */
+    background-color: #C4C4C4;
+    /* Modern Browsers */
+    border-radius: 5px;
+}
+
+.content-main-header {
+    margin: -1px 5px -2px 20px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.content-sub-header {
+    margin: 0 5px 5px 20px;
+    color: #9F9F9F;
+    font-weight: 700;
+}
+
+.content-passage-with-hr {
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+.content-pessage {
+    font-size: 17px;
+    font-family: 'Source Han Sans HC', Arial, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+@media all and (min-width:492px) {
+    #grid-container {
+        flex-wrap: nowrap;
+        width:394px;
+    }
+    .content-pessage {
+        font-size: 17px;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        height: 100px;
+        transition-property: height, -webkit-line-clamp;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+    }   
+    .theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage {
+        height: 200px;
+        -webkit-line-clamp: 8;
+    }
+}
+
+@media all and (min-width:1024px) {
+    #grid-container {
+        flex-wrap: wrap;
+        align-content: space-between;
+        width:818px;
+        height:1000px;
+    }
+    
 }
 
 /*Hover to show shadow*/
+
 /* .theBlocks:hover:not(#titleblock), .theBlocks:focus:not(#titleblock){
     width:450px;
     -webkit-box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18); 
     box-shadow: 0px 0px 43px 11px rgba(0,0,0,0.18);
 } */
 
-/*Hover to expand hight, if not titleblock*/
-.theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage{
-    height:200px;
-    -webkit-line-clamp:8;
-}
-
-#grid-container{
-    display:flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items:stretch;
-}
-
-
 /*layout for the white content blocks on the left row*/
+
 /* .leftBlocks{
     display:block;
     margin-right:15px;
 } */
+
 /* layout for the white content blocks on the right row */
+
 /* .rightBlocks{
     float:left;
     margin-left:15px;
 } */
+
 /*layout for the two block that make the vontent blocks 
 align to center of the page*/
+
 /* .theHalf{
     display:block;
     float:left;
@@ -68,86 +184,3 @@ align to center of the page*/
     width:49.8%;
     margin:50px 0px 50px 0px;
 } */
-
-
-
-#titleblock{
-    box-shadow:none;
-    padding:0%;
-    background-color:#FFFFFF00;
-}
-
-#titleblock h1{
-    font-family:Jost, Helvetica, sans-serif;
-    font-size:100px;
-    margin:0%;
-    line-height: 100px;
-    font-weight: 800;
-}
-
-.linkBlock{
-    color: #4d4d4d;
-    font-weight: 500;
-}
-
-.content-image{
-    display:block;
-    float:left;
-    width:60px;
-    height:60px;
-    border-radius:15px;
-    background-image: url(../img/grapefruit-icon.svg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.content-header{
-    display:block;
-    float:left;
-    clear:right;
-    font-family:'Source Han Sans', Arial, sans-serif;
-}
-
-hr {
-    border: none;
-    height: 5px;
-    /* Set the hr color */
-    color: #C4C4C4; /* old IE */
-    background-color: #C4C4C4; /* Modern Browsers */
-    border-radius: 5px;
-}
-
-.content-main-header{
-    margin: -1px 5px -2px 20px;
-    color:#000000;
-    font-weight: 900;
-}
-
-.content-sub-header{
-    margin: 0 5px 5px 20px;
-    color:#9F9F9F;
-    font-weight:700;
-}
-
-.content-passage-with-hr{
-    margin-top: 10px;
-    display:block;
-    float:left;
-}
-
-.content-pessage{
-    font-size:17px;
-    font-family:'Source Han Sans HC', Arial, sans-serif;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:4;
-    height: 100px;
-    transition-property: height, -webkit-line-clamp;
-    transition-duration: .3s;
-    transition-timing-function:ease-out;
-    
-}
-
