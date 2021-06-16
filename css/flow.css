@@ -1,9 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Prevent unexpected transition while loading the page */
 
 .transition_none * {
     -webkit-transition: none!important;
-    -moz-transition: none!important;
-    -ms-transition: none!important;
     -o-transition: none!important;
     transition: none!important;
 }
@@ -20,15 +25,21 @@ body {
 
 #grid-container {
     margin: 6vw auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 80%;
 }
 
 /*style for the white content blocks */
 
 .theBlocks {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
     padding: 12.5%;
     background-color: #FFFFFFE0;
@@ -40,7 +51,8 @@ body {
 }
 
 #titleblock {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     padding: 0%;
     background-color: #FFFFFF00;
 }
@@ -57,7 +69,8 @@ a.SNLink {
     display: block;
     height: 12vw;
     /* background-color:#C4C4C4; */
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-bottom: 4vw;
     border-radius: 6vw;
     color: #000000;
@@ -141,7 +154,8 @@ hr {
     font-size: 4vw;
     font-family: 'Source Han Sans HC', Arial, sans-serif;
     overflow: hidden;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;
@@ -149,7 +163,8 @@ hr {
 
 @media all and (min-width:492px) {
     #grid-container {
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
         width: 394px;
     }
     #titleblock h1 {
@@ -166,9 +181,17 @@ hr {
         /* background-color:#C4C4C4; */
         margin-bottom: 20px;
         border-radius: 30px;
+        -webkit-transition-property: background-color, -webkit-box-shadow;
+        transition-property: background-color, -webkit-box-shadow;
+        -o-transition-property: background-color, box-shadow;
         transition-property: background-color, box-shadow;
-        transition-duration: .5s;
-        transition-timing-function: ease;
+        transition-property: background-color, box-shadow, -webkit-box-shadow;
+        -webkit-transition-duration: .5s;
+             -o-transition-duration: .5s;
+                transition-duration: .5s;
+        -webkit-transition-timing-function: ease;
+             -o-transition-timing-function: ease;
+                transition-timing-function: ease;
     }
     a.SNLink:hover, a.SNLink:focus {
         background-color: #FFD2D1;
@@ -187,15 +210,29 @@ hr {
         text-align: center;
         margin-top: 0px;
         margin-bottom: 0px;
-        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+        -webkit-transition-property: font-size, -webkit-transform;
+        transition-property: font-size, -webkit-transform;
+        -o-transition-property: font-size, transform;
         transition-property: font-size, transform;
-        transition-timing-function: ease;
-        transition-duration: .5s;
-        transition-delay: 1s;
+        transition-property: font-size, transform, -webkit-transform;
+        -webkit-transition-timing-function: ease;
+             -o-transition-timing-function: ease;
+                transition-timing-function: ease;
+        -webkit-transition-duration: .5s;
+             -o-transition-duration: .5s;
+                transition-duration: .5s;
+        -webkit-transition-delay: 1s;
+             -o-transition-delay: 1s;
+                transition-delay: 1s;
     }
     .theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock {
         font-size: 22px;
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
     }
     .content-image {
         width: 60px;
@@ -228,8 +265,12 @@ hr {
         display: block;
         float: left;
         transition-property: height, -webkit-line-clamp;
-        transition-duration: .3s;
-        transition-timing-function: ease-out;
+        -webkit-transition-duration: .3s;
+             -o-transition-duration: .3s;
+                transition-duration: .3s;
+        -webkit-transition-timing-function: ease-out;
+             -o-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
     }
     /*Hover to expand hight, if not titleblock*/
     .theBlocks:hover:not(.preventHover) .content-pessage, .theBlocks:focus:not(.preventHover) .content-pessage {
@@ -240,8 +281,10 @@ hr {
 
 @media all and (min-width:1024px) {
     #grid-container {
-        flex-wrap: wrap;
-        align-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-line-pack: justify;
+            align-content: space-between;
         width: 818px;
         height: 1000px;
     }
