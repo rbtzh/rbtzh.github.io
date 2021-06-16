@@ -53,35 +53,35 @@ body {
     font-weight: 800;
 }
 
-a.SNLink{
-    display:block;
-    height:12vw;
+a.SNLink {
+    display: block;
+    height: 12vw;
     /* background-color:#C4C4C4; */
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin-bottom: 4vw;
     border-radius: 6vw;
-    color:#000000;
-    background-color:#02010100;
+    color: #000000;
+    background-color: #02010100;
 }
 
-a.SNLink img{
-    display:block;
-    float:left;
-    margin-right:4.4vw;
-    height:100%;
+a.SNLink img {
+    display: block;
+    float: left;
+    margin-right: 4.4vw;
+    height: 100%;
 }
 
-a.SNLink p{
-    line-height:60%;
-    display:block;
-    float:left;
+a.SNLink p {
+    line-height: 60%;
+    display: block;
+    float: left;
     font-size: 4.4vw;
-    font-family:'Source Han Sans', Arial, sans-serif;
+    font-family: 'Source Han Sans', Arial, sans-serif;
     font-weight: 900;
 }
 
-#theLittleFaceInSNLinkBlock{
-    display:none;
+#theLittleFaceInSNLinkBlock {
+    display: none;
 }
 
 .content-image {
@@ -134,7 +134,7 @@ hr {
     background-color: #C4C4C4;
     /* Modern Browsers */
     border-radius: 0.8vw;
-    clear:left;
+    clear: left;
 }
 
 .content-pessage {
@@ -155,16 +155,14 @@ hr {
     #titleblock h1 {
         font-size: 100px;
     }
-
     .theBlocks {
         width: 394px;
         padding: 50px;
         border-radius: 27px;
         margin-top: 30px;
     }
-
-    a.SNLink{
-        height:60px;
+    a.SNLink {
+        height: 60px;
         /* background-color:#C4C4C4; */
         margin-bottom: 20px;
         border-radius: 30px;
@@ -172,39 +170,33 @@ hr {
         transition-duration: .5s;
         transition-timing-function: ease;
     }
-    
-    a.SNLink:hover, a.SNLink:focus{
-        background-color:#FFD2D1;
-        -webkit-box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65); 
-        box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65);
+    a.SNLink:hover, a.SNLink:focus {
+        background-color: #FFD2D1;
+        -webkit-box-shadow: 0px 0px 12px -2px rgba(241, 199, 198, 0.65);
+        box-shadow: 0px 0px 12px -2px rgba(241, 199, 198, 0.65);
     }
-    a.SNLink img{
-        margin-right:22px;
+    a.SNLink img {
+        margin-right: 22px;
     }
-    
-    a.SNLink p{
+    a.SNLink p {
         font-size: 22px;
     }
-
-    #theLittleFaceInSNLinkBlock{
-        display:block;
-        font-size:0px;
-        text-align:center;
+    #theLittleFaceInSNLinkBlock {
+        display: block;
+        font-size: 0px;
+        text-align: center;
         margin-top: 0px;
         margin-bottom: 0px;
-        transform:rotate(-360deg);
+        transform: rotate(-360deg);
         transition-property: font-size, transform;
         transition-timing-function: ease;
         transition-duration: .5s;
-        transition-delay:1s;
-
+        transition-delay: 1s;
     }
-
-    .theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock{
-        font-size:22px;
-        transform:rotate(360deg);
+    .theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock {
+        font-size: 22px;
+        transform: rotate(360deg);
     }
-
     .content-image {
         width: 60px;
         height: 60px;
@@ -228,18 +220,16 @@ hr {
     hr {
         height: 5px;
         border-radius: 5px;
-        
     }
     .content-pessage {
         font-size: 17px;
         -webkit-line-clamp: 4;
         height: 100px;
-        display:block;
-        float:left;
+        display: block;
+        float: left;
         transition-property: height, -webkit-line-clamp;
         transition-duration: .3s;
         transition-timing-function: ease-out;
-        
     }
     /*Hover to expand hight, if not titleblock*/
     .theBlocks:hover:not(.preventHover) .content-pessage, .theBlocks:focus:not(.preventHover) .content-pessage {
