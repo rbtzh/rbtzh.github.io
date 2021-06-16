@@ -19,7 +19,7 @@ body {
 /*flex box to container blocks*/
 
 #grid-container {
-    margin: 0 auto;
+    margin: 6vw auto;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -122,12 +122,7 @@ a.SNLink p{
     font-weight: 700;
     font-size: 4.5vw;
     margin: 0;
-}
-
-.content-passage-with-hr {
-    margin-top: 2%;
-    display: block;
-    float: left;
+    margin-bottom: 2vw;
 }
 
 hr {
@@ -139,6 +134,7 @@ hr {
     background-color: #C4C4C4;
     /* Modern Browsers */
     border-radius: 0.8vw;
+    clear:left;
 }
 
 .content-pessage {
@@ -227,24 +223,26 @@ hr {
     }
     .content-sub-header {
         font-size: 22px;
-    }
-    .content-passage-with-hr {
-        margin-top: 10px;
+        margin-bottom: 20px;
     }
     hr {
         height: 5px;
         border-radius: 5px;
+        
     }
     .content-pessage {
         font-size: 17px;
         -webkit-line-clamp: 4;
         height: 100px;
+        display:block;
+        float:left;
         transition-property: height, -webkit-line-clamp;
         transition-duration: .3s;
         transition-timing-function: ease-out;
+        
     }
     /*Hover to expand hight, if not titleblock*/
-    .theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage {
+    .theBlocks:hover:not(.preventHover) .content-pessage, .theBlocks:focus:not(.preventHover) .content-pessage {
         height: 200px;
         -webkit-line-clamp: 8;
     }
