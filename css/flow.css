@@ -19,31 +19,25 @@ body {
 /*flex box to container blocks*/
 
 #grid-container {
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width:80%;
+    width: 80%;
 }
-
 
 /*style for the white content blocks */
 
 .theBlocks {
     box-sizing: border-box;
-    width: 394px;
-    padding: 50px;
+    width: 100%;
+    padding: 12.5%;
     background-color: #FFFFFFE0;
-    border-radius: 27px;
+    border-radius: 7%;
     -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.20);
     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.20);
     clear: both;
-    margin-top: 30px;
+    margin-top: 7.5%;
 }
-
-/*Hover to expand hight, if not titleblock*/
-
-
-
 
 #titleblock {
     box-shadow: none;
@@ -53,67 +47,102 @@ body {
 
 #titleblock h1 {
     font-family: Jost, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 19vw;
     margin: 0%;
-    line-height: 100px;
+    line-height: 100%;
     font-weight: 800;
 }
 
-.linkBlock {
-    color: #4d4d4d;
-    font-weight: 500;
+a.SNLink{
+    display:block;
+    height:12vw;
+    /* background-color:#C4C4C4; */
+    box-sizing:border-box;
+    margin-bottom: 4vw;
+    border-radius: 6vw;
+    color:#000000;
+    background-color:#02010100;
+}
+
+a.SNLink img{
+    display:block;
+    float:left;
+    margin-right:4.4vw;
+    height:100%;
+}
+
+a.SNLink p{
+    line-height:60%;
+    display:block;
+    float:left;
+    font-size: 4.4vw;
+    font-family:'Source Han Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+#theLittleFaceInSNLinkBlock{
+    display:none;
 }
 
 .content-image {
     display: block;
     float: left;
-    width: 60px;
-    height: 60px;
-    border-radius: 15px;
+    width: 12vw;
+    height: 0;
+    /*this line and*/
+    padding-bottom: 12vw;
+    /*This two line let the hright be same as width*/
+    border-radius: 25%;
     background-image: url(../img/grapefruit-icon.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+/*combine two headers into one block*/
+
 .content-header {
     display: block;
     float: left;
     clear: right;
     font-family: 'Source Han Sans', Arial, sans-serif;
+    margin-left: 7%;
+    margin-top: -2%;
+}
+
+.content-main-header {
+    margin: 0 0 -1vw 0;
+    color: #000000;
+    font-weight: 900;
+    font-size: 6vw;
+}
+
+.content-sub-header {
+    color: #9F9F9F;
+    font-weight: 700;
+    font-size: 4.5vw;
+    margin: 0;
+}
+
+.content-passage-with-hr {
+    margin-top: 2%;
+    display: block;
+    float: left;
 }
 
 hr {
     border: none;
-    height: 5px;
+    height: 0.8vw;
     /* Set the hr color */
     color: #C4C4C4;
     /* old IE */
     background-color: #C4C4C4;
     /* Modern Browsers */
-    border-radius: 5px;
-}
-
-.content-main-header {
-    margin: -1px 5px -2px 20px;
-    color: #000000;
-    font-weight: 900;
-}
-
-.content-sub-header {
-    margin: 0 5px 5px 20px;
-    color: #9F9F9F;
-    font-weight: 700;
-}
-
-.content-passage-with-hr {
-    margin-top: 10px;
-    display: block;
-    float: left;
+    border-radius: 0.8vw;
 }
 
 .content-pessage {
-    font-size: 17px;
+    font-size: 4vw;
     font-family: 'Source Han Sans HC', Arial, sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -125,17 +154,96 @@ hr {
 @media all and (min-width:492px) {
     #grid-container {
         flex-wrap: nowrap;
-        width:394px;
+        width: 394px;
+    }
+    #titleblock h1 {
+        font-size: 100px;
+    }
+
+    .theBlocks {
+        width: 394px;
+        padding: 50px;
+        border-radius: 27px;
+        margin-top: 30px;
+    }
+
+    a.SNLink{
+        height:60px;
+        /* background-color:#C4C4C4; */
+        margin-bottom: 20px;
+        border-radius: 30px;
+        transition-property: background-color, box-shadow;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+    
+    a.SNLink:hover, a.SNLink:focus{
+        background-color:#FFD2D1;
+        -webkit-box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65); 
+        box-shadow: 0px 0px 12px -2px rgba(241,199,198,0.65);
+    }
+    a.SNLink img{
+        margin-right:22px;
+    }
+    
+    a.SNLink p{
+        font-size: 22px;
+    }
+
+    #theLittleFaceInSNLinkBlock{
+        display:block;
+        font-size:0px;
+        text-align:center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transform:rotate(-360deg);
+        transition-property: font-size, transform;
+        transition-timing-function: ease;
+        transition-duration: .5s;
+        transition-delay:1s;
+
+    }
+
+    .theBlocks:hover:not(#titleblock) #theLittleFaceInSNLinkBlock{
+        font-size:22px;
+        transform:rotate(360deg);
+    }
+
+    .content-image {
+        width: 60px;
+        height: 60px;
+        padding-bottom: 0;
+    }
+    .content-header {
+        margin-left: 20px;
+        margin-top: -2px;
+    }
+    .content-main-header {
+        margin: 0;
+        color: #000000;
+        font-weight: 900;
+        line-height: 28px;
+        font-size: 28px;
+    }
+    .content-sub-header {
+        font-size: 22px;
+    }
+    .content-passage-with-hr {
+        margin-top: 10px;
+    }
+    hr {
+        height: 5px;
+        border-radius: 5px;
     }
     .content-pessage {
         font-size: 17px;
-        overflow: hidden;
         -webkit-line-clamp: 4;
         height: 100px;
         transition-property: height, -webkit-line-clamp;
         transition-duration: .3s;
         transition-timing-function: ease-out;
-    }   
+    }
+    /*Hover to expand hight, if not titleblock*/
     .theBlocks:hover:not(#titleblock) .content-pessage, .theBlocks:focus:not(#titleblock) .content-pessage {
         height: 200px;
         -webkit-line-clamp: 8;
@@ -146,10 +254,9 @@ hr {
     #grid-container {
         flex-wrap: wrap;
         align-content: space-between;
-        width:818px;
-        height:1000px;
+        width: 818px;
+        height: 1000px;
     }
-    
 }
 
 /*Hover to show shadow*/
