@@ -123,7 +123,18 @@
     </div>
 </body>
 <script>
-    cancleBottomBlockTransition();
+    function correctHightAndHover(screenWidthMatchSecondBreakpoint) {
+        if (screenWidthMatchSecondBreakpoint.matches) { // If media query matches
+            cancleBottomBlockTransition_DoubleColumn();
+        } 
+        else {
+            cancleBottomBlockTransition_SingleColumn();
+        }
+    }
+
+    var screenWidthMatchSecondBreakpoint = window.matchMedia("(min-width: 1024px)")
+    correctHightAndHover(screenWidthMatchSecondBreakpoint) // Call listener function at run time
+    x.addListener(correctHightAndHover) // Attach listener function on state changes 
 </script>
 
 </html>
