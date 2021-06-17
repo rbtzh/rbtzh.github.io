@@ -262,7 +262,6 @@ hr {
         font-size: 17px;
         -webkit-line-clamp: 4;
         height: 100px;
-        display: block;
         float: left;
         transition-property: height, -webkit-line-clamp;
         -webkit-transition-duration: .3s;
