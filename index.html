@@ -146,7 +146,7 @@
 
     var screenWidthMatchSecondBreakpoint = window.matchMedia("(min-width: 1024px)")
     correctHightAndHover(screenWidthMatchSecondBreakpoint) // Call listener function at run time
-    x.addListener(correctHightAndHover) // Attach listener function on state changes 
+    screenWidthMatchSecondBreakpoint.addListener(correctHightAndHover) // Attach listener function on state changes 
 </script>
 
 </html>
