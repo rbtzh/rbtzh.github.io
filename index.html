@@ -19,7 +19,9 @@
     <meta name="author" content="Zhao Yanbo">
     <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/flow.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/preventExpendBottomBlock.js"></script>
+    <!-- <script src="js/openlink.js"></script> -->
     <link rel="icon" type="image/png" href="img/icon_500px.png" />
     <title>yanbo site</title>
 </head>
@@ -38,7 +40,7 @@
     <div id="grid-container">
 
         <!--title block-->
-        <div class="theBlocks preventHover)" id="titleblock">
+        <div class="theBlocks preventHover" id="titleblock">
             <h1>yanbo<br>site</h1>
         </div>
 
@@ -60,7 +62,8 @@
         </div>
 
         <!--Content Blocks-->
-        <div class="theBlocks" tabindex="4">
+        <div class="theBlocks clickableBlocks" tabindex="4">
+            <a href="https://www.google.com"></a>
             <div class="content-image" style="background-image:url(img/proundly-bad.JPG)"></div>
             <div class="content-header">
                 <h2 class="content-main-header">Placeholder</h2>
@@ -72,7 +75,8 @@
             </p>
         </div>
 
-        <div class="theBlocks" tabindex="5">
+        <div class="theBlocks clickableBlocks" tabindex="5">
+            <a href="https://www.google.com"></a>
             <div class="content-image"></div>
             <div class="content-header">
                 <h2 class="content-main-header">Lorem Ipsum</h2>
@@ -87,7 +91,8 @@
             </p>
         </div>
 
-        <div class="theBlocks" tabindex="6">
+        <div class="theBlocks clickableBlocks" tabindex="6">
+            <a href="https://www.google.com"></a>
             <div class="content-image"></div>
             <div class="content-header">
                 <h2 class="content-main-header">Lorem Ipsum</h2>
@@ -102,7 +107,8 @@
             </p>
         </div>
 
-        <div class="theBlocks" tabindex="7">
+        <div class="theBlocks clickableBlocks" tabindex="7">
+            <a href="https://www.google.com"></a>
             <div class="content-image"></div>
             <div class="content-header">
                 <h2 class="content-main-header">Lorem Ipsum</h2>
@@ -117,7 +123,8 @@
             </p>
         </div>
 
-        <div class="theBlocks" tabindex="8">
+        <div class="theBlocks clickableBlocks" tabindex="8">
+            <a href="https://www.google.com"></a>
             <div class="content-image"></div>
             <div class="content-header">
                 <h2 class="content-main-header">Lorem Ipsum</h2>
@@ -135,6 +142,7 @@
     </div>
 </body>
 <script>
+    //这里将在屏幕宽度发生改变时改变不能展开的末尾块
     function correctHightAndHover(screenWidthMatchSecondBreakpoint) {
         if (screenWidthMatchSecondBreakpoint.matches) { // If media query matches
             cancleBottomBlockTransition_DoubleColumn();
@@ -147,6 +155,13 @@
     var screenWidthMatchSecondBreakpoint = window.matchMedia("(min-width: 1024px)")
     correctHightAndHover(screenWidthMatchSecondBreakpoint) // Call listener function at run time
     screenWidthMatchSecondBreakpoint.addListener(correctHightAndHover) // Attach listener function on state changes 
+
+    //使内容块可以点击
+    $(".clickableBlocks").click(function () {
+	window.location = $(this).find("a").attr("href");
+	return false;
+});
+
 </script>
 
 </html>
