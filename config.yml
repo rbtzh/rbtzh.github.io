@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Yanblog
+  description: "Some words written by Zhao Yanbo"
+  keywords: [Blog, Portfolio, PaperMod, Tech, Linux, Frontend]
+  author: Zhao Yanbo
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -60,7 +60,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Yanblog
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -75,15 +75,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to Yanblog
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/yan_mind"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/rbtzh"
+    - name: email
+      url: "mailto:zhao_yanbo@outlook.com?subject=Hi!👋 I\'m..."
 
   analytics:
     google:
