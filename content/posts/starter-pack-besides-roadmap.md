@@ -1,7 +1,39 @@
 ---
-title: "Starter Pack"
-date: 2022-09-23T21:06:52+08:00
+title: "Roadmap 之外的前端新手包"
+date: 2022-09-23T22:04:59+08:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["Frontend", "Tips"]
+author: "Zhao Yanbo"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
 draft: false
+hidemeta: false
+comments: false
+description: "爱❤️来自亚洲善待电脑组织"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "github.com/rbtzh/rbtzh.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: false # to append file path to Edit link
 ---
 
 **请删除你电脑里的各种 “管家”。** 这些流氓软件不仅会窃取你的隐私、对你的身心造成伤害，而且实在不好用。你的一切需求都可以用对应的开源软件更好地实现。写软件一定要培养对软件的审美，摒弃掉这些丑陋的东西。
