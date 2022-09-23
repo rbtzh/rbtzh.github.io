@@ -35,6 +35,9 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: false # to append file path to Edit link
 ---
+每次看到朋友在安装软件时熟悉地打开某电脑管家的应用商店、下起来路不明的汉化版本软件，我就真的觉得很多人没能在网上冲浪的旅程中找到最趁手的工具。🤕
+
+所以，我想向所有能看到这篇文章的人强力安利一些类似与 “吃饭之前要洗手” 的 “常识”，希望能帮助你强劲体魄，提高数位美感。
 
 **请删除你电脑里的各种 “管家”。** 这些流氓软件不仅会窃取你的隐私、对你的身心造成伤害，而且实在不好用。你的一切需求都可以用对应的开源软件更好地实现。写软件一定要培养对软件的审美，摒弃掉这些丑陋的东西。
 
@@ -44,7 +47,7 @@ editPost:
 
 **请避免国产浏览器。** 道理很简单，世界上并没有“国产浏览器”这种东西，所有国产浏览器都基本上可以理解为 Chrome / Firefox 的后门和广告加料版。请换用最新版的 [Chrome](https://www.google.com/chrome/) 和 [国际版 Firefox](https://www.mozilla.org/en-US/firefox/new/)。（没错，Firefox也有中国特供版，你用中文搜火狐基本上只能搜到加了料的火狐，坏！）
 
-**请学习交互设计和排版。** 前端负责构建一些和人交互的页面，职责类似于打磨木柄的工匠，目的是让人用得顺手。之前的前端（网页设计）包含设计与实现。虽然现在前端工程师大都只负责 “实现” 这一个环节，了解一些设计准则仍然是构造人机交互体验良好界面的必备知识。[这里是 Google 在 Coursera 提供的 UX(User Experience) Design 课程](https://www.coursera.org/professional-certificates/google-ux-design)，可以免费加入。设计界面可以用 [Figma](http://figma.com/)，行业标准，提供[学生授](https://www.figma.com/education/)权。
+**请学习交互设计和排版。** 前端负责构建一些和人交互的页面，职责类似于打磨木柄的工匠，目的是让人用得顺手。之前的前端（网页设计）包含设计与实现。虽然现在前端工程师大都只负责 “实现” 这一个环节，了解一些设计准则仍然是构造人机交互体验良好界面的必备知识。[这里是 Google 在 Coursera 提供的 UX(User Experience) Design 课程](https://www.coursera.org/professional-certificates/google-ux-design)，可以免费加入。设计界面可以用 [Figma](http://figma.com/)，行业标准，提供[学生授权](https://www.figma.com/education/)。
 
 **前端不止是网页。** 虽然前端区别于客户端一般指运行在浏览器里的网页应用，但是我们现在可以通过一些技术（[Electron](https://www.electronjs.org/)、[Flutter](https://flutter.dev/)、[React Native ](https://reactnative.dev/)等）将其转译成跑在本地的跨平台应用，虽然性能可能会差一点。
 
