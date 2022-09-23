@@ -1,5 +1,5 @@
 baseURL: "https://blog.zhaoyanbo.com/"
-title: ExampleSite
+title: Zhao Yanblog
 paginate: 5
 theme: PaperMod
 languageCode: zh-cn
