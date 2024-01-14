@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on Zhao Yanblog</title>
+    <link>https://blog.zhaoyanbo.com/tags/communication/</link>
+    <description>Recent content in Communication on Zhao Yanblog</description>
+    <image>
+      <title>Zhao Yanblog</title>
+      <url>https://blog.zhaoyanbo.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhaoyanbo.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 06 Jan 2024 17:49:45 +0800</lastBuildDate>
+    <atom:link href="https://blog.zhaoyanbo.com/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《光纤通信技术》期末复习笔记 2023秋：Final Review Notes for Fiber Optic Communications Technology 2023 Fall</title>
+      <link>https://blog.zhaoyanbo.com/posts/optical-fiber-communication-notes-2023fall/</link>
+      <pubDate>Sat, 06 Jan 2024 17:49:45 +0800</pubDate>
+      <guid>https://blog.zhaoyanbo.com/posts/optical-fiber-communication-notes-2023fall/</guid>
+      <description>西安邮电大学《光纤通信技术》期末复习笔记，2023年秋季</description>
+    </item>
+    <item>
+      <title>《微机原理与接口技术》期末复习笔记 2023秋：Final Review Notes for Microcomputer Principle and Interface Technology Notes 2023 Fall</title>
+      <link>https://blog.zhaoyanbo.com/posts/microcomputer-principle-and-interface-technology-notes-2023fall/</link>
+      <pubDate>Thu, 04 Jan 2024 19:00:00 +0800</pubDate>
+      <guid>https://blog.zhaoyanbo.com/posts/microcomputer-principle-and-interface-technology-notes-2023fall/</guid>
+      <description>西安邮电大学《微机原理与接口技术》期末复习笔记，2023年秋季</description>
+    </item>
+  </channel>
+</rss>
