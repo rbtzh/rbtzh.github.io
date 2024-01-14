@@ -35,7 +35,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: false # to append file path to Edit link
 isCJKLanguage: true
-lang: {zh-cn,en}
 ---
 
 - 学校：西安邮电大学
