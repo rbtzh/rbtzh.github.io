@@ -29,7 +29,7 @@ cover:
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "github.com/rbtzh/rbtzh.github.io/content"
     Text: "Suggest Changes" # edit text
