@@ -25,11 +25,11 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "/images/microcomputer-principle-and-interface-technology-notes-2023fall/微机原理Blog封面.png" # image path/url
+    alt: "Intel 8086 :)" # alt text
+    caption: "Intel 8086 :)" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "github.com/rbtzh/rbtzh.github.io/content"
     Text: "Suggest Changes" # edit text
