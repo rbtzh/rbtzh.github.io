@@ -1,5 +1,5 @@
 ---
-title: "数位美感审查委员会"
+title: "我真心觉得很多人没能在网上冲浪的旅程中找到最趁手的工具。"
 date: 2022-09-23T22:04:59+08:00
 tags: ["前端","技术","数位美感","碎碎念"]
 author: "Zhao Yanbo"
@@ -32,25 +32,28 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: false # to append file path to Edit link
 ---
-每次看到朋友在安装软件时熟悉地打开某电脑管家的应用商店、下起来路不明的汉化版本软件，我就真的觉得很多人没能在网上冲浪的旅程中找到最趁手的工具。🤕
+我真心觉得很多人没能在网上冲浪的旅程中找到最趁手的工具。
 
-所以，我在此成立 ”数位美感审查委员会“，向所有能看到这篇文章的你强力安利一些类似与 “吃饭之前要洗手” 相似等级的 “常识”，帮助你强劲体魄，提高数位美感。
+## 不要依赖各种“管家”，自己动手丰衣足食
 
-- **请删除你电脑里的各种 “管家”。** 这些流氓软件不仅会窃取你的隐私、对你的身心造成伤害，而且实在不好用。你的一切需求都可以用对应的开源软件更好地实现。写软件一定要培养对软件的审美，摒弃掉这些丑陋的东西。
+这些流氓软件不仅会窃取你的隐私、对你的身心造成伤害，而且实在不好用。其自带的所谓应用商店更是恶意软件的水上乐园。
 
-- **最好在学校教务申请一个教育邮箱。** 很多国际上的商业软件（[JetBrains](https://www.jetbrains.com/community/education/#students), [Autodesk](https://www.autodesk.com/education/support), [Altium](https://education.altium.com/), [GitHub](https://education.github.com/pack), [Figma](https://www.figma.com/education/) 等）和硬件（[Apple](https://www.apple.com.cn/cn-edu/shop/education-pricing), [Microsoft](https://www.microsoftstore.com.cn/student) 等）都提供学生授权或优惠，不用花钱，填个表格申请就好。
+对于查杀病毒，Windows 系统自带的[安全中心](https://learn.microsoft.com/zh-cn/windows/security/operating-system-security/system-security/windows-defender-security-center/windows-defender-security-center)就完全够用了。如果一定要安装一个安全软件的话，我推荐[火绒](https://www.huorong.cn/)。但最重要的是及时更新系统，很多漏洞的补丁都会通过系统更新加载。
 
-- **请使用干净的软件。** 如果你要安装一个软件，最好先在操作系统提供的包管理器（Linux: apt, pacman......; Windows: winget）查找有没有对应的包。如果没有，应去搜索引擎（建议用Google、Bing，不推荐用百度）**仔细辨别**有没有**软件作者提供的官网**，如果仍然没找到就换个软件吧。不要用各种 “管家” 提供的软件商店。如果发现你需要的软件需要付费，先看看有没有提供学生授权；如果不提供学生授权就找找有没有开源的替代（搜 <软件名> opensource alternative）吧。**请避免使用盗版**。说实话前端的优秀工具基本上都是开源的，没什么非用盗版不可的需求。盗版是丑陋的。
+对于 Windows 系统而言，使用软件作者提供的官网或 [GitHub](https://github.com/) 仓库安装软件总是最好的选择。可我观察到很多人并没有掌握在搜索引擎中分辨真假官网的技能，好在可以使用 [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) 这个超好用的命令行包管理器来安装和升级软件。
 
-- **请避免国产浏览器。** 道理很简单，世界上并没有“国产浏览器”这种东西，所有国产浏览器都基本上可以理解为 Chrome / Firefox 的后门和广告加料版。请换用最新版的 [Chrome](https://www.google.com/chrome/) 和 [国际版 Firefox](https://www.mozilla.org/en-US/firefox/new/)。（没错，Firefox也有中国特供版，你用中文搜火狐基本上只能搜到加了料的火狐，坏！）
+而对于 macOS 和 [Linux](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) 系统的用户而言，由于软件分发渠道相对完备，这个问题并不会十分让人困扰。
 
-- **请学习交互设计和排版。** 前端负责构建一些和人交互的页面，职责类似于打磨木柄的工匠，目的是让人用得顺手。之前的前端（网页设计）包含设计与实现。虽然现在前端工程师大都只负责 “实现” 这一个环节，了解一些设计准则仍然是构造人机交互体验良好界面的必备知识。[这里是 Google 在 Coursera 提供的 UX(User Experience) Design 课程](https://www.coursera.org/professional-certificates/google-ux-design)，可以免费加入。设计界面可以用 [Figma](http://figma.com/)，行业标准，提供[学生授](https://www.figma.com/education/)权。
+## 善用教育优惠
 
-- **前端不止是网页。** 虽然前端区别于客户端一般指运行在浏览器里的网页应用，但是我们现在可以通过一些技术（[Electron](https://www.electronjs.org/)、[Flutter](https://flutter.dev/)、[React Native ](https://reactnative.dev/)等）将其转译成跑在本地的跨平台应用，虽然性能可能会差一点。
+很多贵得要死的专有软件（[JetBrains](https://www.jetbrains.com/community/education/#students)、[Autodesk](https://www.autodesk.com/education/edu-software/overview)、[Altium](https://www.altium.com/education/students)、[GitHub](https://education.github.com/pack)、[Figma](https://www.figma.com/education/) 等）和贵得要死的“高端”电子产品（[Apple](https://www.apple.com/us-edu/store)、[Microsoft](https://www.microsoft.com/en-us/store/b/education) 等）都面向在校学生和教师提供授权或优惠。这也就意味着可以花很少的钱（甚至免费！）享受正版软件所提供的服务。
 
-- **[请提供最小重现。](https://antfu.me/posts/why-reproductions-are-required-zh)** 如果遇到问题需要请教别人，请尽量避免截图、只给一小段代码片段或者只给报错。一般这种情况除了算一卦之外没什么可以做的。可以用 [CodePen](https://codepen.io/) 等工具提供最小重现。
+这些服务商通常需要教育邮箱（对于中国学生，也就是 edu.cn 结尾的邮箱）验证身份。对于在校生而言，申请教育邮箱是免费的，申请入口可以在学校的教务系统里找找看。除了邮箱，近些年越来越多的服务商也支持[学信网](https://www.chsi.com.cn/)验证，很方便。
 
-- **请贡献开源。** [开源软件](https://en.wikipedia.org/wiki/Free_and_open-source_software)即开放源代码的软件、自由软件、FOSS，与之对应的是私有软件。私有软件是邪恶的！在前端领域开源软件已经占主导，但在其它部分领域私有软件仍然大行其道。积极贡献开源软件就是为了有一天所有人类都能尊严地、自由地使用软件。
+## 避开国产浏览器
 
-- **请尽量使用英文获取相关的信息。** 除了小部分由中文开发者主导的开源项目（[Vue](https://cn.vuejs.org/)、[AntDesign](https://ant.design) 等）或提供优秀中文翻译的文档（[MDN](https://developer.mozilla.org/zh-CN/) 等），你能找到的大部分中文的信息都是从英文翻译来的。反正你也看得懂，为什么不直接获取一手信息呢？当然这点在国内实践起来可能有技术的障碍，一定要学会自己搭代理或者购买代理，这可能是这几年我做的收益最大的事。
+你可能不信，但其实并没有“国产浏览器”这种东西。基本上所有国产浏览器都可以认为是被审美令人难过的土老板精心打扮过的 Chrome，外加上由意图十分可疑的土老板精心打造的安全后门和巨大量贴片广告。官网直达：[Chrome](https://www.google.com/chrome/)、[Firefox](https://www.mozilla.org/en-US/firefox/new/)。
 
+## Use English for information retrieval
+
+While I'm not a native English speaker myself, I've found tremendous value in using it. Don't worry about searching your keywords in English; Google won't judge you for grammatical errors. Doing so unlocks an ocean of precise and useful information, far exceeding what you'll find on platforms like CSDN or Baidu. Not only are resources like [Stack Overflow](https://stackoverflow.com/) and [Reddit](https://www.reddit.com/) available in English, but also a wealth of official documentation. Mastering these resources will be key to solving your problems.
