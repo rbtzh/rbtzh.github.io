@@ -42,9 +42,9 @@ I might be able to buy these things in the next 5 years. Just for fun, not for p
 
 - [ ] [Clockwork Devterm](https://www.clockworkpi.com/home-devterm)
 - [ ] [Clockwork uConsole](https://www.clockworkpi.com/uconsole)
-- [ ] [Raspberry Pi 5 8G](https://www.raspberrypi.com/products/raspberry-pi-5/)
+- [x] [Raspberry Pi 5 8G](https://www.raspberrypi.com/products/raspberry-pi-5/) *Now I own a Raspberry Pi 3B*
 - [ ] [teenage engineering computer-1](https://teenage.engineering/products/computer-1)
-- [ ] [Google Pixel 8 Pro](https://store.google.com/us/product/pixel_8_pro?hl=en-US)
+- [x] [Google Pixel 8 Pro](https://store.google.com/us/product/pixel_8_pro?hl=en-US) *Now I own a Pixel 7*
 
 ## Play
 
@@ -61,6 +61,12 @@ I might be able to buy these things in the next 5 years. Just for fun, not for p
 
 ## Interact
 
+- [ ] [Meta Quest 3](https://www.meta.com/quest/quest-3/)
 - [ ] [HHKB PROFESSIONAL HYBRID TYPE-S (CHARCOAL/STAMPED)](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297201)
 - [ ] [Logitech MX Ergo](https://www.logitech.com/en-us/products/mice/mx-ergo-wireless-trackball-mouse.html)
 - [ ] [iQunix A80](https://iqunix.store/products/iqunix-a80-wireless-mechanical-keyboard-with-triple-mode-connection)
+- [ ] [魔派 双子星二代HD旗舰版](https://item.jd.com/100079426684.html)
+
+## Equipment
+
+- [ ] [RIGOL普源 DS1202Z-E 数字示波器](https://www.rigolna.com/ds1000z/)
