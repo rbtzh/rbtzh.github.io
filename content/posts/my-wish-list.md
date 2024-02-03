@@ -45,6 +45,7 @@ I might be able to buy these things in the next 5 years. Just for fun, not for p
 - [x] [Raspberry Pi 5 8G](https://www.raspberrypi.com/products/raspberry-pi-5/) *Now I own a Raspberry Pi 3B*
 - [ ] [teenage engineering computer-1](https://teenage.engineering/products/computer-1)
 - [x] [Google Pixel 8 Pro](https://store.google.com/us/product/pixel_8_pro?hl=en-US) *Now I own a Pixel 7*
+- [ ] [Steam Deck OLED](https://www.steamdeck.com/en/oled)
 
 ## Play
 
@@ -58,6 +59,7 @@ I might be able to buy these things in the next 5 years. Just for fun, not for p
 - [ ] [Sony ICD-TX660](https://electronics.sony.com/audio/walkman-digital-recorders/audio-digital-voice-recorders/p/icdtx660)
 - [ ] Mamiya RB67 Pro-S (6x7 Format)
 - [ ] Nikon F100
+- [ ] Nikon Z5
 
 ## Interact
 
