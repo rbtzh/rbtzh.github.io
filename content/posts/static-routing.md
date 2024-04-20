@@ -98,6 +98,8 @@ ping 192.168.1.1
 
 ## Example 2
 
+### Topology
+
 ```cisco
    ┌───┐                ┌───┐   
    │PC1│                │PC2│   
