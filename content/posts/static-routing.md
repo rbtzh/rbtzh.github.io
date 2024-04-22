@@ -283,7 +283,6 @@ on ESW1 :
 
 ```cisco
 enable
-conf ter
 
 vlan database
 vlan 30
