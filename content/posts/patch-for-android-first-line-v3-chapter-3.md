@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "读这本书踩到的坑"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.zhaoyanbo.com/posts/patch-for-android-first-line-v3-chapter-3/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

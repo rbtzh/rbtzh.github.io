@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "西安邮电大学《微机原理与接口技术》期末复习笔记，2023年秋季"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.zhaoyanbo.com/posts/microcomputer-principle-and-interface-technology-notes-2023fall/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

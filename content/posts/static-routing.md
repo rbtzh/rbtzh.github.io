@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Step by step tutorial on how to configure static routing of Cisco devices in GNS3."
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.zhaoyanbo.com/posts/static-routing/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

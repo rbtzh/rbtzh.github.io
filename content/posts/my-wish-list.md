@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Protect me from what I want!"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.zhaoyanbo.com/posts/my-wish-list/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

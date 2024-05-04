@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "我用12元做了一块亚克力的键盘托"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.zhaoyanbo.com/posts/sonshi-style-cover/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
